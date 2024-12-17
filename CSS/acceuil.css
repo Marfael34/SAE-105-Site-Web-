@@ -1,7 +1,10 @@
 /* Styles généraux */
-body.acceuil {
+body {
     margin: 0;
     font-family: Arial, sans-serif;
+}
+body.acceuil {
+    
     background-image: url("../image/marché.jpg");
     background-repeat: no-repeat;
     background-attachment:scroll;
@@ -28,6 +31,11 @@ header {
     text-transform: uppercase;
 }
 
+.lien{
+    text-decoration: none;
+    color: white;
+}
+
 /* Contenu de la page*/
 
 div.contenu p{
@@ -46,6 +54,12 @@ div.contenu p{
     background-color: #c80606;
     display: block;
     margin-left: 45%;
-    width: 100px ;
+    width: 150px ;
     height: 50px;
+}
+
+.fleche{
+    position: relative;
+    align-items: center;
+
 }

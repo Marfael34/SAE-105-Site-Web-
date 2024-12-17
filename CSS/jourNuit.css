@@ -1,0 +1,89 @@
+#renne_pere_noel {
+    position: relative;
+    width: 200px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+#renne_pere_noel img {
+    width: 100%;
+  }
+
+  #bulle {
+    position: relative;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+div.joursNuit{
+    align-items: normal;
+    border: 1px solid;
+    display: flex;
+    width: 50%;
+
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; /* Centrer les div verticalement si nécessaire */
+    gap: 5px; /* Espace entre les div */
+    padding: 5px;
+  }
+
+.jours {
+    background-image: url("../image/Soleil.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    padding: 20px;
+    border: 2px solid #2E7D32; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+    flex: 1; /* Permet à chaque div de prendre un espace égal */
+    height: 465px;
+  }
+
+.nuit {
+    /*background-image: ;*/
+    color: white; 
+    background-image: url("../image/lune.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    text-align: center; 
+    padding: 20px;
+    border: 2px solid #2E7D32;
+    border-radius: 5px;
+    flex: 1;
+    height: 465px ;
+  }
+
+.btn_jour{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffd000;
+    display: block;
+    margin: 50% 0% 40% 40%;
+    width: 100px ;
+    height: 50px;
+}
+
+.btn_nuit{
+    border: 1px solid #e2d182;
+    border-radius: 10px;
+    background-color: #e2d182;
+    display: block;
+    margin: 50% 0% 40% 40%;
+    width: 100px ;
+    height: 50px;
+}
