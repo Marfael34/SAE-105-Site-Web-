@@ -2,7 +2,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-image: url("../image/marché.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100%;
 }
 
 /* Header */
@@ -10,8 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to right, white, red); 
-    color: #fff;
+    background-color: red;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -24,4 +26,14 @@ header {
 .title {
     font-size: 24px;
     text-transform: uppercase;
+}
+
+/* Contenu de la page*/
+
+div.contenu p{
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+    font-size: large;
 }
