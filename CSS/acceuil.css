@@ -1,5 +1,5 @@
 /* Styles généraux */
-body {
+body.acceuil {
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url("../image/marché.jpg");
@@ -36,4 +36,16 @@ div.contenu p{
     color: black;
     margin-top: 10%;
     font-size: large;
+}
+
+/* bouton continuer */
+
+.btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #c80606;
+    display: block;
+    margin-left: 45%;
+    width: 100px ;
+    height: 50px;
 }
