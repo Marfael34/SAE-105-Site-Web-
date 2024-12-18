@@ -13,7 +13,7 @@
 
 #renne_pere_noel img {
     width: 100%;
-  }
+  } 
 
 #bulle {
     position: relative;
@@ -44,3 +44,17 @@
     width: 70%;
     height: 50%;
   }
+
+.fleche_avance{
+  position: relative;
+  top: 100px;
+  right: 35%;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+a.fleche_avance img{
+  width: 40px;
+  z-index: 1;
+}
