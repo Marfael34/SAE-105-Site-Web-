@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>allées</title>
-    <link rel="stylesheet" href="./CSS/acceuil.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="./image/logo_iut_beziers.png" alt="Logo" />
-        </div>
-        <a class="lien" href="#"><h1 class="title">Marché de Noël de Béziers </h1></a>
-        <div class="logo">
-            <img src="./image/Logo_la_ville_de_Béziers.png" alt="">
-        </div>
-    </header>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>allées</title>
+        <link rel="stylesheet" href="./CSS/acceuil.css">
+        <link rel="stylesheet" href="./CSS/patron.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./image/logo_iut_beziers.png" alt="Logo" />
+            </div>
+            <a class="lien" href="index.html"><h1 class="title">Marché de Noël de Béziers </h1></a>
+            <div class="logo">
+                <img src="./image/Logo_la_ville_de_Béziers.png" alt="">
+            </div>
+        </header>
+        <span class="container">
+            <!-- Conteneur pour le renne -->
+            <div id="renne_pere_noel">
+                <!-- Bulle de dialogue -->
+                <div id="bulle">OH OH OH, je suis le père Noël de Béziers ! 🎅</div>
+                <!--bouton pour afficher le texte suivant-->
+                <button onclick="changerPhrase()">Continuer</button>
+                <!-- Image du renne -->
+                <img src="./image/santa-4705217_640.png" alt="Père Noël et son renne">
+            </div>
+            <div class="view">
+                <img  class="image" src="./image/NUIT/entre.jpg" alt="">
+            </div>
+        </span>
+    </body>
 </html>
