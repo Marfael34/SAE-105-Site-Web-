@@ -4,9 +4,9 @@ function changerDePage_JN() { // menne vers la page jourNuit.html
     window.location.href ="./jourNuit.html";
   }
 
-function changerDePage_ENTMJ() { // menne vers la page entre_marche_jour.html
+function changerDePage_ENTMJ() { // menne vers une autre page
     // Redirection vers une autre URL
-    window.location.href ="./entre_marche_jour.html";
+    window.location.href ="https://www.youtube.com/watch?v=BBJa32lCaaY&ab_channel=LegacyPNDA";
   }
 
 function changerDePage_ENTMN() { // menne vers la page entre_marche_nuit.html
