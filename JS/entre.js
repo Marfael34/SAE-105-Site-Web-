@@ -1,7 +1,7 @@
 // liste phrase
 const phrases = [
-    "Vous êtes arriver devant l'entré du marché de noël",
     " appuyer sur la flèche pour avancer dans le marché",
+    "Vous êtes arriver devant l'entré du marché de noël"
   ];
   
   let indexPhrase = -1; // Index de la phrase actuelle

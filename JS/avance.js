@@ -2,6 +2,7 @@
 const phrases = [
     "Choississez si vous voulez voir le chalet ",
     "ou avancer",
+    "Vous avez avancer au niveau des 1er chalet"
   ];
   
   let indexPhrase = -1; // Index de la phrase actuelle
