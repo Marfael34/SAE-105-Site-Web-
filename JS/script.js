@@ -15,18 +15,16 @@ function changerDePage_ENTMN() { // menne vers la page entre_marche_nuit.html
     window.location.href ="../HTML/entre.html";
   }
 
-
-
-
 // liste phrase
     const phrases = [
+      "OH OH OH!",
+      "je suis le père Noël de Béziers ! 🎅",
       "Avec mon renne on vous invite à choisir ...",
       "si vous voulez voir le marché  de jour ...",
-      "ou de nuit en cliquant sur un des deux bouton ci-contre",
-      "OH OH OH, je suis le père Noël de Béziers ! 🎅"
+      "ou de nuit en cliquant avec les bouton ci-contre",
     ];
     
-    let indexPhrase = 0; // Index de la phrase actuelle
+    let indexPhrase = -1; // Index de la phrase actuelle
 
     // Fonction pour changer la phrase dans la bulle 
     function changerPhrase() {

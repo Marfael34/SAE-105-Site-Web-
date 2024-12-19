@@ -1,9 +1,10 @@
 // liste phrase
 const phrases = [
-    " appuyer sur la flèche pour avancer",
+    "Vous êtes arriver devant l'entré du marché de noël",
+    " appuyer sur la flèche pour avancer dans le marché",
   ];
   
-  let indexPhrase = 0; // Index de la phrase actuelle
+  let indexPhrase = -1; // Index de la phrase actuelle
 
   // Fonction pour changer la phrase dans la bulle 
   function changerPhrase() {
