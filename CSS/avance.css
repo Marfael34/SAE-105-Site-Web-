@@ -1,0 +1,87 @@
+.container {
+    display: flex; 
+    justify-content:first baseline; 
+    align-items: center; /* Centrer les div verticalement si nécessaire */
+    
+  }
+#renne_pere_noel {
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+#renne_pere_noel img {
+    width: 100%;
+  } 
+
+#bulle {
+    position: relative;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+.view {
+    display: flex; 
+    justify-content:first baseline; 
+    align-items: center; /* Centrer les div verticalement si nécessaire */
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+
+.image{
+    color: white; /* Couleur du texte */
+    width: 95%;
+    height: 50%;
+  }
+
+.fleche_avance{
+  position: relative;
+  top: 100px;
+  right: 60%;
+  text-decoration: none;
+}
+
+a.fleche_avance img{
+  width: 40px;
+  z-index: 1;
+}
+
+.p1{
+  position: relative;
+  right: 54%;
+  top: 5%;
+  color: white;   
+  z-index: 1;
+  font-size: 28px;
+}
+
+.fleche_droite{
+    position: relative;
+    top: 100px;
+    right: 90%;
+    text-decoration: none;
+  }
+
+a.fleche_droite img{
+    width: 40px;
+    z-index: 1;
+  }
+
+.p2{
+    position: relative;
+    right: 85%;
+    top: 70px;
+    color: white;   
+    z-index: 1;
+    font-size: 28px;
+  }

@@ -1,7 +1,7 @@
 // Fonction pour changer de page page 
 function changerDePage_JN() { // menne vers la page jourNuit.html
     // Redirection vers une autre URL
-    window.location.href ="../jourNuit.html";
+    window.location.href ="../HTML/jourNuit.html";
   }
 
 function changerDePage_ENTMJ() { // menne vers une autre page
@@ -12,7 +12,7 @@ function changerDePage_ENTMJ() { // menne vers une autre page
 function changerDePage_ENTMN() { // menne vers la page entre_marche_nuit.html
     // Redirection vers une autre URL
     //window.location.href ="./entre_marche_nuit.html";
-    window.location.href ="../page_patron.html";
+    window.location.href ="../HTML/entre.html";
   }
 
 

@@ -2,7 +2,6 @@
     position: relative;
     width: 200px;
     text-align: center;
-    margin-top: 10%;
   }
 
 #renne_pere_noel img {
@@ -37,6 +36,7 @@ div.joursNuit{
     align-items: center; /* Centrer les div verticalement si nécessaire */
     gap: 5px; /* Espace entre les div */
     padding: 5px;
+    margin-top: 10%;
   }
 
 .jours {
