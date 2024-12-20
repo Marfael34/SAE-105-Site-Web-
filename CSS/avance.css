@@ -85,3 +85,24 @@ a.fleche_droite img{
     z-index: 1;
     font-size: 28px;
   }
+
+  .fleche_arriere{
+    position: relative;
+    top: 280px;
+    right: 88%;
+    text-decoration: none;
+  }
+  
+  a.fleche_arriere img{
+    width: 40px;
+    z-index: 1;
+  }
+  
+  .p3{
+    position: relative;
+    right: 81%;
+    top: 245px;
+    color: white;   
+    z-index: 1;
+    font-size: 28px;
+  }

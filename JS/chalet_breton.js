@@ -3,7 +3,8 @@ const phrases = [
     "Le nom de ce chalet est : ",
     "Le Chalet Breton",
     "anecdote:",
-    "C’est en 1521, que le fameux sapin de Noël fit son apparition"
+    "C’est en 1521, que le fameux sapin de Noël fit son apparition",
+    "Vous êtes devant un chalet ..."
   ];
   
   let indexPhrase = -1; // Index de la phrase actuelle

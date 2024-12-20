@@ -1,7 +1,7 @@
 // liste phrase
 const phrases = [
-    "Choississez si vous voulez voir le chalet ",
-    "ou avancer",
+    "Choississez si vous voulez voir le chalet, ",
+    "avancer ou revenir en arrière",
     "Vous avez avancer au niveau des 1er chalet"
   ];
   
