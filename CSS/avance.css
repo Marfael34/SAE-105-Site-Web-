@@ -28,6 +28,27 @@
     text-align: center;
 }
 
+.changer{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #c80606;
+  display: block;
+  margin-left: 30%;
+  margin-bottom: 5%;
+  width: 100px ;
+  height: 50px;
+  font-size: 20px;
+  transition: all 0.3s ease 0s ;
+  color:white;
+}
+
+.changer:hover {
+  background-color: #fff;
+  transition: all 0.3s ease 0s ;
+  transform: scale(1.3);
+  color:black;
+}
+
 
 .view {
     display: flex; 
